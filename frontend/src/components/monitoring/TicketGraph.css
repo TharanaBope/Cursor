@@ -1,0 +1,17 @@
+.ticket-graph {
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.recharts-default-tooltip {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid #e1e8ef !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.recharts-tooltip-label {
+    color: #2c3e50 !important;
+    font-weight: 600 !important;
+} 

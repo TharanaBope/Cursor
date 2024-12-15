@@ -1,0 +1,76 @@
+.activity-log-container {
+    position: relative;
+    height: 400px;
+    margin-bottom: 1rem;
+}
+
+.activity-log-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #fff;
+}
+
+.log-list {
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.log-item {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-bottom: 1px solid #e1e8ef;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.log-item:first-child {
+    border-top: none;
+}
+
+.log-item:last-child {
+    border-bottom: none;
+}
+
+.log-badge {
+    min-width: 80px;
+    text-align: center;
+}
+
+.log-time {
+    color: #6c757d;
+    font-size: 0.8rem;
+}
+
+.log-message {
+    flex-grow: 1;
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: #2c3e50;
+}
+
+/* Custom scrollbar for better appearance */
+.activity-log-wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+
+.activity-log-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.activity-log-wrapper::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.activity-log-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

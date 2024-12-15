@@ -1,0 +1,24 @@
+backend/
+├── config/
+│   ├── database.js
+│   └── socket.js
+├── controllers/
+│   ├── authController.js
+│   ├── configController.js
+│   └── systemController.js
+├── models/
+│   ├── userModel.js
+│   ├── configModel.js
+│   └── ticketModel.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── configRoutes.js
+│   └── systemRoutes.js
+├── services/
+│   ├── producerService.js
+│   ├── consumerService.js
+│   └── ticketPoolService.js
+├── utils/
+│   ├── logger.js
+│   └── validation.js
+└── server.js 

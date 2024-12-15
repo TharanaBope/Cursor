@@ -1,0 +1,23 @@
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── auth/
+│   │   │   ├── Login.js
+│   │   │   └── Register.js
+│   │   ├── config/
+│   │   │   ├── ConfigForm.js
+│   │   │   └── ConfigList.js
+│   │   ├── monitoring/
+│   │   │   ├── TicketGraph.js
+│   │   │   ├── ActivityLog.js
+│   │   │   └── SystemStatus.js
+│   │   └── layout/
+│   │       ├── Navbar.js
+│   │       └── Dashboard.js
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── auth.js
+│   │   └── socket.js
+│   ├── context/
+│   │   └── AuthContext.js
+│   └── App.js 

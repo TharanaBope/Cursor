@@ -1,0 +1,46 @@
+.system-status {
+    padding: 1rem;
+}
+
+.status-card {
+    height: 100%;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.status-card:hover {
+    transform: translateY(-3px);
+}
+
+.status-card h5 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.status-count {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.progress {
+    height: 1.5rem;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #f86d7d);
+    border: none;
+} 

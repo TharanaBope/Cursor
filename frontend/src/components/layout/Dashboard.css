@@ -1,0 +1,60 @@
+.dashboard-container {
+    padding: 1.5rem;
+    min-height: calc(100vh - 56px); /* Subtract navbar height */
+    background-color: #f8f9fa;
+}
+
+.dashboard-row {
+    margin-bottom: 1.5rem;
+}
+
+.dashboard-card {
+    height: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+    background-color: #fff;
+}
+
+.dashboard-card .card-body {
+    padding: 1.25rem;
+}
+
+.dashboard-card .card-title {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+/* Fixed height containers */
+.config-section {
+    height: 100%;
+    min-height: 400px;
+}
+
+.monitoring-section {
+    height: 400px;
+    margin-bottom: 1.5rem;
+}
+
+.status-section {
+    height: 100%;
+    min-height: 200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 1rem;
+    }
+
+    .monitoring-section,
+    .config-section,
+    .status-section {
+        height: auto;
+        min-height: auto;
+    }
+}
+
+.g-4 {
+    --bs-gutter-y: 1.5rem;
+}
