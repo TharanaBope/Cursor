@@ -33,7 +33,7 @@ Make sure these environment variables are set in `backend/.env`:
 PORT=5001
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=Navithaka@2004
+DB_PASSWORD=...
 DB_NAME=ticket_system
 JWT_SECRET=ticket_system_secret_key
 ```
